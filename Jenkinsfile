@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/[your-username]/Jenkins-CI-Pipeline-PythonApp'
+                git 'https://github.com/tusharbiswas9038/Jenkins-CI-Pipeline-PythonApp.git'
             }
         }
         stage('Install Dependencies') {
